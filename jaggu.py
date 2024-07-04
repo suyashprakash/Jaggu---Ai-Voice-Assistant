@@ -5,7 +5,6 @@ import streamlit as st
 # Initialize the text-to-speech engine
 engine = pyttsx3.init()
 
-
 # Function to get microphone input
 def get_audio():
     recognizer = sr.Recognizer()
